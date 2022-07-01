@@ -126,7 +126,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 RQ_QUEUES = {
     'default': {
-        'HOST': 'localhost',
+        'HOST': '0.0.0.0',
         'PORT': 6379,
         'DB': 0,
     }
