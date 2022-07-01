@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from hardware import RGB_test
+from . import hardware
 
 def index(request):
     RGB_test()
